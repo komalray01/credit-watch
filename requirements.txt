@@ -1,0 +1,14 @@
+pandas>=1.5
+numpy>=1.23
+scipy>=1.9
+scikit-learn>=1.2
+xgboost>=1.7
+shap>=0.42
+matplotlib>=3.6
+streamlit>=1.25
+joblib>=1.2
+
+# Optional -- only needed if you run the optional SMOTE comparison in
+# src/train_models.py (run_smote_comparison). Not required for the main
+# pipeline (train_models.py main(), evaluate_models.py, the Streamlit app).
+# imbalanced-learn>=0.10
